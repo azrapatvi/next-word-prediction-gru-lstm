@@ -7,7 +7,7 @@ A simple **Machine Learning web app** that predicts the next word in a sentence 
 ## 🚀 Features
 
 - 🌐 Interactive web app using Streamlit  
-- 🧠 LSTM-based next word prediction model  
+- 🧠 LSTM and GRU based next word prediction model  
 - 🎭 Trained on Shakespeare’s *Hamlet* text  
 - ⚡ Real-time predictions in browser  
 - 📦 Uses saved tokenizer + trained model  
@@ -81,7 +81,7 @@ shakespeare-next-word-predictor/
 
 ```
 ## 🧠 Model Details
-Model Type: LSTM (Recurrent Neural Network)
+Model Type: LSTM (Recurrent Neural Network) and GRU
 Dataset: Shakespeare’s Hamlet
 Tokenizer: Keras Tokenizer
 Input: Padded word sequences
